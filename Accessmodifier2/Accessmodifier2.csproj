@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>Accessmodifier2.Cl</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="firstapplication">
+      <HintPath>..\firstapplication\bin\Debug\net6.0\firstapplication.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
